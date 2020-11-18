@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>
+	RECIPIENT REGISTRATION
+</title>
+<link rel="stylesheet" type="text/css" href="CSS/donor_registration.css">
+</head>
+<body >
+<center>
+			
+	<h1>ONLINE BLOOD BANK</h1>
+<br>
+	<ul>
+  	<li><a href='Home.html'>Home</a></li>
+	<li><a href='donor_registration.html'>Become A Donor</a></li>
+  	<li><a href='recipient_registration.html'>Request for Blood</a></li>
+  	<li><a class="active" href='bloodbankregistration.html'>Blood Bank Registration</a></li>
+ 	<li><a href='Donor_List.php'>Donor List</a></li>
+ 	<li><a href='bloodrequest.php'>Blood Request</a></li>
+ 	<li><a href='Search.php'>Search Blood</a></li>
+	<li><a href='why_become_adonor.html'>Why Become a Blood Donor</a></li>
+	<li><a href='adminlogin.php'>Admin</a></li>
+	</ul>
+	<br>
+		<h1>Enter Blood Bank details</h1>
+
+
+<form action="backend/bloodbank_reg_process.php" method="post" >
+				<br><br>
+				<input style="font-size:15px; "  type="text" name="bbname" placeholder="Blood Bank Name"><br><br>
+				<input style="font-size:15px; " type="int" name="grno" placeholder="Govt. Registration Number"><br><br>
+				<input style="font-size:15px; " type="text" name="bbmname" placeholder="Blood Bank Manager Name"><br><br>
+				<input style="font-size:15px; " type="int" name="mobilenumber" placeholder="Mobile Number"><br><br>
+				<input style="font-size:15px; " type="int" name="address" placeholder="Address"><br><br>
+				<button type="submit" value="submit" name="submit">Submit</button>
+				<button type="reset" value="reset" name="reset">Reset</button>
+
+			<br><br>
+				<font color="white">All fields are mandatory</font>
+			<br>
+</form>
+		
+</center>
+</body>
+</html>

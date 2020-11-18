@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>
+	RECIPIENT REGISTRATION
+</title>
+<link rel="stylesheet" type="text/css" href="CSS/donor_registration.css">
+</head>
+<body >
+<center>
+			
+	<h1>ONLINE BLOOD BANK</h1>
+<br>
+	<ul>
+  	<li><a href='Home.html'>Home</a></li>
+	<li><a href='donor_registration.html'>Become A Donor</a></li>
+  	<li><a class="active" href='recipient_registration.html'>Request for Blood</a></li>
+  	<li><a href='bloodbankregistration.html'>Blood Bank Registration</a></li>
+ 	<li><a href='Donor_List.php'>Donor List</a></li>
+ 	<li><a href='bloodrequest.php'>Blood Request</a></li>
+ 	<li><a href='Search.php'>Search Blood</a></li>
+	<li><a href='why_become_adonor.html'>Why Become a Blood Donor</a></li>
+	<li><a href='adminlogin.php'>Admin</a></li>
+	</ul>
+	<br>
+		<h1>Request for Blood</h1>
+
+
+<form action="backend/recipient_reg_process.php" method="post" >
+				
+				<br>
+				<input style="font-size:15px"  type="text" name="name" placeholder="Full Name"><br><br>
+				<input style="font-size:15px;" type="text" name="rnid" placeholder="Recipient NID"><br><br>
+				<input style="font-size:15px;" type="text" name="address" placeholder="Address"><br><br>
+          		<input style="font-size:15px; " type="text" name="pno" placeholder="Phone number"><br><br>
+          		<b>Blood group</b>
+					<select name="bgroup"> 
+						<option value="A+">A+</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B-">B-</option>
+						<option value="AB+">AB+</option>
+						<option value="AB-">AB-</option>
+						<option value="O+">O+</option>
+						<option value="O-">O-</option>
+					</select>
+
+			<br>
+			<br>
+				<button type="submit" value="submit" name="submit">Submit</button>
+
+				<button type="reset" value="reset" name="reset">Reset</button>
+
+			<br><br>
+				<font color="white">All fields are mandatory</font>
+			<br>
+</form>
+		
+</center>
+</body>
+</html>

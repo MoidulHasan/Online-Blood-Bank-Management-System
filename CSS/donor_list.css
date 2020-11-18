@@ -1,0 +1,57 @@
+body
+  {
+    background-image: url('dregbg.jpg');
+    background-:center;
+    background-size:cover;
+    color: white;
+   }
+    h1
+   {
+    color: white;
+   }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+a {
+  text-decoration:none;
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+   
+form {
+    align-content: :center;
+    width:1000;
+    background-color:gray;
+    opacity:0.8;
+}
+
+button {
+    color: black;
+    height:40px;
+    width:90px;
+    background-color: green;
+    font-weight:bold;
+    font-size: 100%;
+    border: 0;
+}
