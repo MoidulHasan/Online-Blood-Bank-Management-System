@@ -1,6 +1,6 @@
 
 <?php
-$con = mysqli_connect("localhost", "root", "", "bloodbank");
+$con = mysqli_connect("localhost", "moidulha_bbms", "Password@988", "moidulha_bgmsdb");
 
 if( $con->connect_error){
     die('Error: ' . $con->connect_error);
@@ -23,7 +23,7 @@ $result = $con->query($sql);
 <center><h1 style="color: white">ONLINE BLOOD BANK</h1> </center>
     <br>
     <ul>
-    <li><a href='Home.html'>Home</a></li>
+    <li><a href='index.html'>Home</a></li>
     <li><a href='donor_registration.html'>Become A Donor</a></li>
     <li><a href='recipient_registration.html'>Request for Blood</a></li>
     <li><a href='bloodbankregistration.html'>Blood Bank Registration</a></li>

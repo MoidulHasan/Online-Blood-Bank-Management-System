@@ -1,20 +1,20 @@
 <html>
 <head>
 <title>ONLINE BLOOD BANK</title>
-<link rel="stylesheet" type="text/css" href="CSS/adminlogin.css">
+<link rel="stylesheet" type="text/css" href="../CSS/adminlogin.css">
 </head>
 <body>
 	<center><h1 style="color: black">ONLINE BLOOD BANK</h1> </center>
 	<br>
 
 	<ul>
-    <li><a href='../Home.html'>Home</a></li>
+    <li><a href='../index.html'>Home</a></li>
     <li><a href='../donor_registration.html'>Become A Donor</a></li>
     <li><a href='../recipient_registration.html'>Request for Blood</a></li>
     <li><a href='../bloodbankregistration.html'>Blood Bank Registration</a></li>
     <li><a href='../Donor_List.php'>Donor List</a></li>
     <li><a href='../bloodrequest.php'>Blood Request</a></li>
-    <li><a href='../Search.php'>Search Blood</a></li>
+    <li><a href='../search.php'>Search Blood</a></li>
     <li><a href='../why_become_adonor.html'>Why Become a Blood Donor</a></li>
     <li><a class="active" href='adminpage.php'>Admin</a></li>
     </ul>

@@ -1,6 +1,6 @@
 <?php
  
-$link = mysqli_connect("localhost", "root", "", "bloodbank");
+$link = mysqli_connect("localhost", "moidulha_bbms", "Password@988", "moidulha_bgmsdb");
 $donid=$_REQUEST['id'];
 $query = "SELECT * from donor where donid='".$donid."'"; 
 $result = mysqli_query($link, $query) or die ( mysqli_error());

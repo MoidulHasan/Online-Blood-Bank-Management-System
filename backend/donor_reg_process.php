@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect("localhost", "root", "", "bloodbank");
+$link = mysqli_connect("localhost", "moidulha_bbms", "Password@988", "moidulha_bgmsdb");
  
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());

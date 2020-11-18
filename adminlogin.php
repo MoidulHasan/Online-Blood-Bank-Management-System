@@ -1,6 +1,6 @@
 
 <?php
-$link = mysqli_connect("localhost", "root", "", "bloodbank");
+$link = mysqli_connect("localhost", "moidulha_bbms", "Password@988", "moidulha_bgmsdb");
  
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
@@ -45,13 +45,13 @@ if($link === false){
    <h1>ONLINE BLOOD BANK</h1>
 <br>
    <ul>
-   <li><a href='Home.html'>Home</a></li>
+   <li><a href='index.html'>Home</a></li>
    <li><a href='donor_registration.html'>Become A Donor</a></li>
    <li><a href='recipient_registration.html'>Request for Blood</a></li>
    <li><a href='bloodbankregistration.html'>Blood Bank Registration</a></li>
    <li><a href='Donor_List.php'>Donor List</a></li>
    <li><a href='bloodrequest.php'>Blood Request</a></li>
-   <li><a href='Search.php'>Search Blood</a></li>
+   <li><a href='search.php'>Search Blood</a></li>
    <li><a href='why_become_adonor.html'>Why Become a Blood Donor</a></li>
    <li><a class="active" href='adminlogin.php'>Admin</a></li>
    </ul>

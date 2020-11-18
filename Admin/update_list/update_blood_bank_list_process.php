@@ -1,6 +1,6 @@
 <?php
  
-$link = mysqli_connect("localhost", "root", "", "bloodbank");
+$link = mysqli_connect("localhost", "moidulha_bbms", "Password@988", "moidulha_bgmsdb");
 $grno=$_REQUEST['id'];
 $query = "SELECT * from bloodbank where grno='".$grno."'"; 
 $result = mysqli_query($link, $query) or die ( mysqli_error());
